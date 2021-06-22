@@ -62,28 +62,11 @@ body {
     margin: auto;
     padding-top: 100px;
 }
-.content-section
+.card
 {
-    float: left;
-    width: 55%;
+    margin-right: 10px;
 }
-.image-section
-{
-    float: right;
-    width: 40%;
-}
-.image-section img
-{
-    width: 100%;
-    height: auto;
-    margin-left: 20px;
-}
-.title h1
-{
-    text-transform: uppercase;
-    font-weight: bold;
-}
-.content p
+.card-title
 {
     font-weight: bold;
 }

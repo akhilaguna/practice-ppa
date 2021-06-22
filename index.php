@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,20 +23,26 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="index.php" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="about.html" class="nav-link">About</a>
+                    <a href="about.php" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#team" class="nav-link">Team</a>
+                    <a href="team.php" class="nav-link">Team</a>
                 </li>
-                <li class="nav-item">
-                    <a href="#login" class="nav-link">Log In</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#login" class="nav-link">Sign Up</a>
-                </li>
+                <?php
+                            if(isset($_SESSION["useruid"]))
+                            {
+                                echo "<li class='nav-item'><a href='profile.php' class='nav-link'>Profile</a></li>";
+                                echo "<li class='nav-item'><a href='includes/logout.inc.php' class='nav-link'>Logout</a></li>";
+                            }
+                            else
+                            {
+                                echo "<li class='nav-item'><a href='login2.php' class='nav-link'>Login</a></li>";
+                                echo "<li class='nav-item'><a href='signup2.php' class='nav-link'>Signup</a></li>";  
+                            }
+        		?>
                 <li class="nav-item">
                     <a href="#contact" class="nav-link">Contact</a>
                 </li>
