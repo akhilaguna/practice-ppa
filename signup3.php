@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="login3.css">
     <link rel="stylesheet" href="css/fixed.css">
 </head>
 
@@ -40,7 +40,7 @@
                             else
                             {
                                 echo "<li class='nav-item'><a href='login3.php' class='nav-link'>Login</a></li>";
-                                echo "<li class='nav-item'><a href='signup2.php' class='nav-link'>Signup</a></li>";  
+                                echo "<li class='nav-item'><a href='signup3.php' class='nav-link'>Signup</a></li>";  
                             }
         		?>
                 <li class="nav-item">
@@ -56,30 +56,48 @@
                     <img src="images/humberto-chavez-InrNz281-S8-unsplash.png" alt="" id="bimg">
                     <div class="section">  
                         <div class="container">
-                            <div class="content-section">
-                                <div class="title">
-                                    <h1>About Us</h1>
-                                </div>
-                                <div class="content">
-                                    <p><br><br> A significant problem us as students faced when doing our O/Ls and A/Ls was the difficulty in finding past papers
-                                         and exam questions on the internet. The only reliable option was to buy printed copies of books that had compiled around
-                                        10 years’ worth of papers. Even then some of the papers didn’t have the answer scripts, or the answer scripts were made 
-                                        by someone other than the professors making the paper. <br><br>
-                                        So, the challenge the five of us as a team have given ourselves is to design and develop a website that will give students,
-                                        teachers and other interested parties the ability to access all of the available O/L and A/L past papers with their 
-                                        original answer scripts at one place. They will be able to simply select the year, subject and relevant 
-                                        medium (Sinhala/Tamil/English) and acquire the desired paper and answers.  They will also be able to answer 
-                                        MCQ papers on the site itself and get an instant result on how much they got right.
-                                    </p>
-                                </div>
+                        <div class="form-box">
+                        <h1>Sign Up</h1>
+                        <br>
+                        <form action="includes/login.inc.php" method="POST">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Full Name</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter full name here">
                             </div>
-                            <div class="image-section">
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <img src="images/sangga-rima-roman-selia-LWfFfA5U5z8-unsplash.png" alt="">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Username</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter username here">
                             </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email here">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter password here">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Confirm Password</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter confirmation password here">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Sign Up</button>
+                        </form>
+                        </div>
+
+                            
+    <?php
+    if(isset($_GET["error"]))
+    {
+        if($_GET["error"] == "emptyinput")
+        {
+            echo "<p>Fill in all fields</p>";
+        }
+        else if($_GET["error"] == "wronglogin")
+        {
+            echo "<p>Incorrect login information</p>"; 
+        }
+    }
+    ?>
                         </div>
                     </div>
                 </div>

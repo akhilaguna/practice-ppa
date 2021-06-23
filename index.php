@@ -39,7 +39,7 @@
                             }
                             else
                             {
-                                echo "<li class='nav-item'><a href='login2.php' class='nav-link'>Login</a></li>";
+                                echo "<li class='nav-item'><a href='login3.php' class='nav-link'>Login</a></li>";
                                 echo "<li class='nav-item'><a href='signup2.php' class='nav-link'>Signup</a></li>";  
                             }
         		?>
