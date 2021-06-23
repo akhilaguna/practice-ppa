@@ -62,6 +62,14 @@ body {
     margin: auto;
     padding-top: 100px;
 }
+.container h1
+{
+    font-weight: bold;
+}
+.form-box
+{
+    margin: auto;
+}
 .content-section
 {
     float: left;
@@ -84,6 +92,10 @@ body {
     font-weight: bold;
 }
 .content p
+{
+    font-weight: bold;
+}
+.form-label
 {
     font-weight: bold;
 }
