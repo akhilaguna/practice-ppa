@@ -39,8 +39,8 @@
                             }
                             else
                             {
-                                echo "<li class='nav-item'><a href='login3.php' class='nav-link'>Login</a></li>";
-                                echo "<li class='nav-item'><a href='signup3.php' class='nav-link'>Signup</a></li>";  
+                                echo "<li class='nav-item'><a href='login.php' class='nav-link'>Login</a></li>";
+                                echo "<li class='nav-item'><a href='signup.php' class='nav-link'>Signup</a></li>";  
                             }
         		?>
                 <li class="nav-item">
@@ -62,13 +62,13 @@
                         <form action="includes/login.inc.php" method="POST">
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Username or Email</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter username of email here">
+                                <input type="text" name="uid" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter username or email here">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputPassword1" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter password here">
+                                <input type="password" name="pwd" class="form-control" id="exampleInputPassword1" placeholder="Enter password here">
                             </div>
-                            <button type="submit" class="btn btn-primary">Log In</button>
+                            <button type="submit" name="submit" class="btn btn-primary">Log In</button>
                         </form>
                         </div>
 

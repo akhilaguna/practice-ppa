@@ -39,8 +39,8 @@
                             }
                             else
                             {
-                                echo "<li class='nav-item'><a href='login3.php' class='nav-link'>Login</a></li>";
-                                echo "<li class='nav-item'><a href='signup3.php' class='nav-link'>Signup</a></li>";  
+                                echo "<li class='nav-item'><a href='login.php' class='nav-link'>Login</a></li>";
+                                echo "<li class='nav-item'><a href='signup.php' class='nav-link'>Signup</a></li>";  
                             }
         		?>
                 <li class="nav-item">
@@ -59,28 +59,28 @@
                         <div class="form-box">
                         <h1>Sign Up</h1>
                         <br>
-                        <form action="includes/login.inc.php" method="POST">
+                        <form action="includes/signup.inc.php" method="POST">
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Full Name</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter full name here">
+                                <input type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter full name here">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Username</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter username here">
+                                <input type="text" name="uid" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter username here">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email here">
+                                <input type="text" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email here">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputPassword1" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter password here">
+                                <input type="password" name="pwd" class="form-control" id="exampleInputPassword1" placeholder="Enter password here">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Confirm Password</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter confirmation password here">
+                                <input type="password" name="pwdrepeat" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter confirmation password here">
                             </div>
-                            <button type="submit" class="btn btn-primary">Sign Up</button>
+                            <button type="submit" name="submit" class="btn btn-primary">Sign Up</button>
                         </form>
                         </div>
 
