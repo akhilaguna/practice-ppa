@@ -9,6 +9,9 @@ body {
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
     color: #505962;
+    background-image: url(images/humberto-chavez-InrNz281-S8-unsplash.png);
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 .navbar {
@@ -39,8 +42,7 @@ body {
 #bimg
 {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
 }
 .home-inner
 {
@@ -58,34 +60,27 @@ body {
 .container
 {
     width: 80%;
-    display: flex;
     margin: auto;
     padding-top: 100px;
 }
 .content-section
 {
-    float: left;
-    width: 55%;
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
 }
 .image-section
 {
-    float: right;
-    width: 40%;
+    padding-top: 70px;
+    margin: auto;
+    width: 80%;
 }
-.image-section img
+#table
 {
-    width: 100%;
-    height: auto;
-    margin-left: 20px;
-}
-.title h1
-{
-    text-transform: uppercase;
-    font-weight: bold;
     color: white;
 }
-.content p
+#title
 {
-    font-weight: bold;
     color: white;
+    font-weight: bold;
 }

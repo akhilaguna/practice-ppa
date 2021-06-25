@@ -60,7 +60,8 @@
             <div class="caption text-center">
                 <h1>The Past Paper Archive</h1>
                 <h3>A one stop shop for all your exam past paper needs</h3>
-                <a href="#" class="btn btn-outline-light btn-lg">Choose Paper</a>
+                <a href="papersol.php" class="btn btn-outline-light btn-lg">O/L</a>
+                <a href="papersal.php" class="btn btn-outline-light btn-lg">A/L</a>
             </div>
     </div>
 

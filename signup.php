@@ -83,6 +83,7 @@
                             <button type="submit" name="submit" class="btn btn-primary">Sign Up</button>
                         </form>
                         </div>
+                        </div>
 
                             
     <?php

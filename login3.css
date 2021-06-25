@@ -70,6 +70,10 @@ body {
 {
     margin: auto;
 }
+.form-box h1
+{
+    color: white;
+}
 .content-section
 {
     float: left;
@@ -98,4 +102,5 @@ body {
 .form-label
 {
     font-weight: bold;
+    color: white;
 }
