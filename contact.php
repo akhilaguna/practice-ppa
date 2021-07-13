@@ -22,13 +22,13 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="index.php" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="about.html" class="nav-link">About</a>
+                        <a href="about.php" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="team.html" class="nav-link">Team</a>
+                        <a href="team.php" class="nav-link">Team</a>
                     </li>
                     <?php
                             if(isset($_SESSION["useruid"]))
