@@ -55,45 +55,73 @@
                 <div class="home-inner">
                     <img src="images/humberto-chavez-InrNz281-S8-unsplash.png" alt="" id="bimg">
                     <div class="section">  
-                        <div class="container">
+                    <div class="container">
                             <div class="card" style="width: 18rem;">
                                 <img class="card-img-top" src="images/akhila.jpg" alt="Card image cap">
                                 <div class="card-body">
                                   <h5 class="card-title">Akhila</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  <p class="card-text">
+                                      <ul>
+                                          <li>20447</li>
+                                          <li>BSc (Hons) Software Engineering (UGC)</li>
+                                          <li>aigunawardena@students.nsbm.ac.lk</li>
+                                      </ul>
+                                  </p>
+                                  <a href="https://github.com/akhilaguna" class="btn btn-primary">GitHub</a>
                                 </div>
                             </div>
                             <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <img class="card-img-top" src="images/osanda.jpg" alt="Card image cap">
                                 <div class="card-body">
                                   <h5 class="card-title">Osanda</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  <p class="card-text">
+                                    <ul>
+                                        <li>20956</li>
+                                        <li>BSc (Hons) Software Engineering (UGC)</li>
+                                        <li>ohwalawage@students.nsbm.ac.lk</li>
+                                    </ul>
+                                  </p>
+                                  <a href="https://github.com/Osandahimsara" class="btn btn-primary">GitHub</a>
                                 </div>
                             </div>
                             <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <img class="card-img-top" src="images/hiruni.jpg" alt="Card image cap">
                                 <div class="card-body">
                                   <h5 class="card-title">Hiruni</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  <p class="card-text">
+                                    <ul>
+                                        <li>20452</li>
+                                        <li>BSc (Hons) Computer Science (UGC)</li>
+                                        <li>whkeshika@students.nsbm.ac.lk</li>
+                                    </ul>
+                                  </p>
+                                  <a href="https://github.com/hirunikeshika9600" class="btn btn-primary">GitHub</a>
                                 </div>
                             </div>
                             <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <img class="card-img-top" src="images/Kaushi.jpg" alt="Card image cap">
                                 <div class="card-body">
                                   <h5 class="card-title">Kaushalya</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  <p class="card-text">
+                                    <ul>
+                                        <li>18006</li>
+                                        <li>Web and Mobile Application Development (VU)</li>
+                                        <li>jgksandamini@students.nsbm.ac.lk</li>
+                                    </ul>
+                                  </p>
+                                  <a href="https://github.com/jgksandamini" class="btn btn-primary">GitHub</a>
                                 </div>
                             </div>
                             <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <img class="card-img-top" src="images/sanu.JPG" alt="Card image cap">
                                 <div class="card-body">
                                   <h5 class="card-title">Sanjana</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  <p class="card-text"><ul>
+                                    <li>18079</li>
+                                    <li>Web and Mobile Application Development (VU)</li>
+                                    <li>klsmeenakshi@students.nsbm.ac.lk</li>
+                                </ul></p>
+                                  <a href="https://github.com/sanjanameenakshi" class="btn btn-primary">GitHub</a>
                                 </div>
                             </div>
                         </div>
