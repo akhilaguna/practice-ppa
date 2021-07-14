@@ -67,45 +67,45 @@
                                 </tr>
                                 <tr>
                                     <td>Biology</td>
-                                    <td>Sinhala</td>
+                                    <td><a href="https://drive.google.com/file/d/1Espm-ieGiq5o7Gjm8RFhg6OIvkQcd1-d/view?usp=sharing" target="_blank">Sinhala</a></td>
                                     <td>English</td>
-                                    <td>Sinhala</td>
+                                    <td><a href="https://drive.google.com/file/d/1wwB7RZyvpH2wa5o3mHgBeSDiUW0ZzkXn/view?usp=sharing" target="_blank">Sinhala</a></td>
                                     <td>English</td>
-                                    <td>Sinhala</td>
-                                    <td>English</td>
-                                    <td>Sinhala</td>
-                                    <td>English</td>
+                                    <td><a href="https://drive.google.com/file/d/1ob5Emn_XrUBq66omLn4re8xsfuqpRNU7/view?usp=sharing" target="_blank">Sinhala</a></td>
+                                    <td><a href="https://drive.google.com/file/d/1VrHnpsMhBTdBWijp9063NxG-PoZ3TEq8/view?usp=sharing" target="_blank">English</a></td>
+                                    <td><a href="https://drive.google.com/file/d/1ND6YeF1K-6V9VUHr4PFGcbiWOO2DtpvR/view?usp=sharing" target="_blank">Sinhala</a></td>
+                                    <td><a href="https://drive.google.com/file/d/1vsZTpk0gPMEzE8Muthp-_4f1Iu4buhmV/view?usp=sharing" target="_blank">English</a></td>
                                 </tr>
                                 <tr>
                                     <td>Mathematics</td>
-                                    <td>Sinhala</td>
+                                    <td><a href="https://drive.google.com/file/d/1zIPhZqndhoyUVWHIyfMTxM5en44ObScq/view?usp=sharing" target="_blank">Sinhala</a></td>
                                     <td>English</td>
-                                    <td>Sinhala</td>
+                                    <td><a href="https://drive.google.com/file/d/1l5IWOCaGbPzpcIAtf_9fAsGZW_b_7yA1/view?usp=sharing" target="_blank">Sinhala</a></td>
                                     <td>English</td>
-                                    <td>Sinhala</td>
-                                    <td>English</td>
-                                    <td>Sinhala</td>
-                                    <td>English</td>
+                                    <td><a href="https://drive.google.com/file/d/1V-WEdHcsUVpmpUH_tgaE1Uwz3w7Bimcp/view?usp=sharing" target="_blank">Sinhala</a></td>
+                                    <td><a href="https://drive.google.com/file/d/1FXQ8XETDnkDFEsamvL5SH-tN3Dw6pImG/view?usp=sharing" target="_blank">English</a></td>
+                                    <td><a href="https://drive.google.com/file/d/1kzzPN5Ltr5icJC47cK0R0Et3wuYcNvkM/view?usp=sharing" target="_blank">Sinhala</a></td>
+                                    <td><a href="https://drive.google.com/file/d/1tevJlSN10XNR2OCb-EII2I8grHr5k2rD/view?usp=sharing" target="_blank">English</a></td>
                                 </tr>
                                 <tr>
                                     <td>Chemistry</td>
-                                    <td>Sinhala</td>
+                                    <td><a href="https://drive.google.com/file/d/1fUQ8yoSgcFUR3w7kuOZhbNr5QAWXowDo/view?usp=sharing" target="_blank">Sinhala</a></td>
                                     <td>English</td>
-                                    <td>Sinhala</td>
+                                    <td><a href="https://drive.google.com/file/d/14FRGMNyORIKYWt1sVDeBi3U5iSc5V-oU/view?usp=sharing" target="_blank">Sinhala</a></td>
                                     <td>English</td>
-                                    <td>Sinhala</td>
-                                    <td>English</td>
-                                    <td>Sinhala</td>
-                                    <td>English</td>
+                                    <td><a href="https://drive.google.com/file/d/1_MYAx4SaaFeroKvUOfNRhA_GmRLVGXIE/view?usp=sharing" target="_blank">Sinhala</a></td>
+                                    <td><a href="https://drive.google.com/file/d/1Hj-Oz8FjiKr9YqKA27ML-1rzI01iQw-c/view?usp=sharing" target="_blank">English</a></td>
+                                    <td><a href="https://drive.google.com/file/d/12fWDJkHPYswJM3mfAEodha6RdrgZHS0g/view?usp=sharing" target="_blank">Sinhala</a></td>
+                                    <td><a href="https://drive.google.com/file/d/1cmSKxT0k6BiMJKdZsccYu40mQkCwXb8M/view?usp=sharing" target="_blank">English</a></td>
                                 </tr>
                                 <tr>
                                     <td>Physics</td>
-                                    <td>Sinhala</td>
+                                    <td><a href="https://drive.google.com/file/d/19v4ZtaahKpxGegDFgNN6c3LTD5qlaePM/view?usp=sharing" target="_blank">Sinhala</a></td>
                                     <td>English</td>
-                                    <td>Sinhala</td>
+                                    <td><a href="https://drive.google.com/file/d/172GkRNzQrwfSuRIExdM04OSlrBbdFvLw/view?usp=sharing" target="_blank">Sinhala</a></td>
                                     <td>English</td>
-                                    <td>Sinhala</td>
-                                    <td>English</td>
+                                    <td><a href="https://drive.google.com/file/d/1C3AX6r-futN-SlFgErruMBMm5iStojkZ/view?usp=sharing" target="_blank">Sinhala</a></td>
+                                    <td><a href="https://drive.google.com/file/d/1JKcueEENY6iE0n13ymZ2yXPZo4wDH31u/view?usp=sharing" target="_blank">English</a></td>
                                     <td>Sinhala</td>
                                     <td>English</td>
                                 </tr>

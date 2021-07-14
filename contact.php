@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -60,7 +63,7 @@
                                 </p>
                                 <div class="row">
                                     <div class="col-md-9 mb-md-0 mb-5">
-                                        <form id="contact">
+                                        <form id="contact" action="contactform.php" method="POST">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <input type="text" name="name" class="form-control">
@@ -92,7 +95,7 @@
                                                 </div>
                                             </div>
                                             <div class="text-center text-md-left">
-                                                <botton class="btn btn-primary" typ="subject">Send</botton>
+                                                <button class="btn btn-primary" type="subject" name="submit">Send</button>
                                             </div>
 
                                         </form>
