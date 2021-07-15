@@ -1,5 +1,6 @@
 <?php
     session_start();
+    include_once 'includes/dbh.inc.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -58,10 +59,20 @@
             </div>
         </div>    
             <div class="caption text-center">
-                <h1>The Past Paper Archive</h1>
-                <h3>A one stop shop for all your exam past paper needs</h3>
-                <a href="papersol.php" class="btn btn-outline-light btn-lg">O/L</a>
-                <a href="papersal.php" class="btn btn-outline-light btn-lg">A/L</a>
+                <?php
+                    $user = $_SESSION["usersId"];
+                    $sql = "SELECT usersName, usersEmail, usersUid FROM users WHERE usersId = $user;";
+                    $result = mysqli_query($conn, $sql);
+                    if($resultCheck > 0)
+                    {
+                        while($row = mysqli_fetch_assoc($result))
+                        {
+                            echo $row['usersName'] . "<br>";
+                            echo $row['usersEmail'] . "<br>";
+                            echo $row['usersUid'] . "<br>";
+                        }
+                    }
+                ?>
             </div>
     </div>
 
