@@ -59,28 +59,16 @@
             </div>
         </div>    
             <div class="caption text-center">
-            <h3>Account Details</h3>
                 <?php
-                    $user = $_SESSION["userid"];
-                    $sql = "SELECT usersName, usersEmail, usersUid FROM users WHERE usersId = $user;";
-                    $result = mysqli_query($conn, $sql);
-                    $resultCheck = mysqli_num_rows($result);
-                    if($resultCheck > 0)
+                    $del = $_SESSION["userid"];
+                    $delete = "DELETE FROM users WHERE usersId = $del;";
+
+                    if(mysqli_query($conn,$delete))
                     {
-                        while($row = mysqli_fetch_assoc($result))
-                        {
-                            echo $row['usersName'] . "<br>";
-                            echo $row['usersEmail'] . "<br>";
-                            echo $row['usersUid'] . "<br>";
-                        }
+                        echo "<h2>Account deleted successfully</h2>";
                     }
+                    mysqli_close($con);
                 ?>
-                <br>
-                <button class="btn btn-primary"><a href="update.php">Update</button>
-                <form action="delete.php" method="POST">
-                    <br>
-                    <button type="submit" name="delete" class="btn btn-primary">Delete</button>
-                </form>
             </div>
     </div>
 
