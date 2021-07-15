@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
+    <title>Update</title>
     <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/fixed.css">
@@ -59,30 +59,17 @@
             </div>
         </div>    
             <div class="caption text-center">
-            <h3>Account Details</h3>
                 <?php
-                    $user = $_SESSION["userid"];
-                    $sql = "SELECT usersName, usersEmail, usersUid FROM users WHERE usersId = $user;";
-                    $result = mysqli_query($conn, $sql);
-                    $resultCheck = mysqli_num_rows($result);
-                    if($resultCheck > 0)
+                    $new = $_POST['uname'];
+                    $del = $_SESSION["userid"];
+                    $delete = "UPDATE users SET usersUid = '$new' WHERE usersId = $del;";
+
+                    if(mysqli_query($conn,$delete))
                     {
-                        while($row = mysqli_fetch_assoc($result))
-                        {
-                            echo $row['usersName'] . "<br>";
-                            echo $row['usersEmail'] . "<br>";
-                            echo $row['usersUid'] . "<br>";
-                        }
+                        echo "<h2>Username updated successfully</h2>";
                     }
+                    mysqli_close($conn);
                 ?>
-                <br>
-                <form action="update.php">
-                    <button type="submit" name="update" class="btn btn-primary">Update</button>
-                </form>
-                <form action="delete.php" method="POST">
-                    <br>
-                    <button type="submit" name="delete" class="btn btn-primary">Delete</button>
-                </form>
             </div>
     </div>
 

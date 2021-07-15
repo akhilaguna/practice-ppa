@@ -1,6 +1,5 @@
 <?php
     session_start();
-    include_once 'includes/dbh.inc.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -8,9 +7,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
+    <title>Update</title>
     <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login3.css">
     <link rel="stylesheet" href="css/fixed.css">
 </head>
 
@@ -55,35 +54,25 @@
             <div class="home-wrap">
                 <div class="home-inner">
                     <img src="images/humberto-chavez-InrNz281-S8-unsplash.png" alt="" id="bimg">
+                    <div class="section">  
+                        <div class="container">
+                        <div class="form-box">
+                        <h1>Log In</h1>
+                        <br>
+                        <form action="updateuname.php" method="POST">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Enter new username</label>
+                                <input type="text" name="uname" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter username or email here">
+                            </div>
+                            <button type="submit" name="submit" class="btn btn-primary">Update</button>
+                        </form>
+                        </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>    
-            <div class="caption text-center">
-            <h3>Account Details</h3>
-                <?php
-                    $user = $_SESSION["userid"];
-                    $sql = "SELECT usersName, usersEmail, usersUid FROM users WHERE usersId = $user;";
-                    $result = mysqli_query($conn, $sql);
-                    $resultCheck = mysqli_num_rows($result);
-                    if($resultCheck > 0)
-                    {
-                        while($row = mysqli_fetch_assoc($result))
-                        {
-                            echo $row['usersName'] . "<br>";
-                            echo $row['usersEmail'] . "<br>";
-                            echo $row['usersUid'] . "<br>";
-                        }
-                    }
-                ?>
-                <br>
-                <form action="update.php">
-                    <button type="submit" name="update" class="btn btn-primary">Update</button>
-                </form>
-                <form action="delete.php" method="POST">
-                    <br>
-                    <button type="submit" name="delete" class="btn btn-primary">Delete</button>
-                </form>
-            </div>
+        </div>  
+        
     </div>
 
     <script src="js/jquery-3.3.1.min.js"></script>
