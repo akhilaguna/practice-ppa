@@ -59,10 +59,12 @@
             </div>
         </div>    
             <div class="caption text-center">
+            <h3>Account Details</h3>
                 <?php
-                    $user = $_SESSION["usersId"];
+                    $user = $_SESSION["userid"];
                     $sql = "SELECT usersName, usersEmail, usersUid FROM users WHERE usersId = $user;";
                     $result = mysqli_query($conn, $sql);
+                    $resultCheck = mysqli_num_rows($result);
                     if($resultCheck > 0)
                     {
                         while($row = mysqli_fetch_assoc($result))
@@ -73,6 +75,12 @@
                         }
                     }
                 ?>
+                <br>
+                <button class="btn btn-primary">Update</button>
+                <form action="">
+                    <br>
+                    <button type="submit" name="submit" class="btn btn-primary">Delete</button>
+                </form>
             </div>
     </div>
 
