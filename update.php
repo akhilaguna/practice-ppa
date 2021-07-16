@@ -57,7 +57,7 @@
                     <div class="section">  
                         <div class="container">
                         <div class="form-box">
-                        <h1>Log In</h1>
+                        <h1>Update</h1>
                         <br>
                         <form action="updateuname.php" method="POST">
                             <div class="mb-3">
